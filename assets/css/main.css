@@ -4074,6 +4074,10 @@ template {
     content: "\eb88"
 }
 
+.devicon-microsoftsqlserver-plain-wordmark:before {
+    content: "\e702"; 
+}
+
 .devicon-python-plain:before {
     content: "\eb89"
 }
