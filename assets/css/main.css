@@ -4622,6 +4622,10 @@ template {
 .devicon-mysql-plain.colored {
     color: #00618a
 }
+.devicon-microsoftsqlserver-plain-wordmark.colored,
+.devicon-microsoftsqlserver-plain.colored {
+    color: #00618a
+}
 
 .devicon-nginx-original-wordmark.colored,
 .devicon-nginx-original.colored,
