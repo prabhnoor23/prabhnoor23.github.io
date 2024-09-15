@@ -1,453 +1,702 @@
-<!-- change resume -->
-
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <!-- Metadata of the Webpage -->
-    <!-- Character-set Metadata -->
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <!-- Viewport Metadata -->
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <!-- Description Metadata-->
-    <meta name="description" content="Portfolio Website" />
-    <!-- Author Metadata -->
-    <meta name="author" content="Prabhnoor Singh" />
-    <!-- Keyword Metadata -->
-    <meta
-      name="keywords"
-      content="Prabhnoor Singh, Prabh Singh, Prabh Noor, Noor, Singh, Prabh,
-        Prabhnoor Singh Uwindsor, Uwindsor, Prabh Uwindsor, Prabhnoor S,
-        University of Windsor, Prabhnoor Singh Punjab, Prabhnoor Singh Software Engineer,
-        Prabhnoor Singh University of Windsor, Prabhnoor Singh Amritsar,
-        Prabhnoor Singh Personal Portfolio, Prabhnoor Singh Website, Prabhnoor Singh Canada,
-        Prabhnoor Singh India, Prabhnoor Singh Windsor, Prabh Canada, Prabhnoor Website,
-        Prabhnoor Singh Portfolio, Prabhnoor Singh Portfolio Website"
-    />
-    <!-- Webpage Logo -->
+
+<head>
+	<!-- Meta Data -->
+	<meta charset="UTF-8">
+	<meta content="text/html; charset=UTF-8" http-equiv="Content-Type">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta name="author" content="prabhnoor singh" />
+	<meta name="description" content="Prabhnoor Singh - Full Stack Software Engineer - AWS | ReactJs | Spring Boot"> 
+	
+	<!-- Twitter Cards -->
+	<meta name="twitter:card" content="Prabhnoor Singh - Full Stack Software Engineer - AWS | ReactJs | Spring Boot">
+	<meta name="twitter:image" content="assets/img/logo/logo.png">
+	<meta name="twitter:title" content="Prabhnoor Singh">
+	<meta name="twitter:site" content="@prabhnoorsingh">
+	<meta name="twitter:creator" content="@prabhnoorsingh"> 
+	
+	<!-- Open Graph data -->
+	<meta property="og:locale" content="en_US">
+	<meta property="og:type" content="Portfolio">
+	<meta property="og:title" content="Prabhnoor Singh - Full Stack Software Engineer - AWS | ReactJs | Spring Boot">
+	<meta property="og:url" content="https://github.com/prabhnosingh">
+	<meta property="og:site_name" content="Prabhnoor Singh">
+	<meta property="og:image" content="assets/img/logo/logo.png">
+	
+	<!-- Google Meta -->
+	<meta name="google-site-verification" content="LXeirZYSBk47aNu0DDM0CSdKAXplRUl3loltDy9CjR4" />
+	    <!-- Webpage Logo -->
     <link rel="shortcut icon" href="https://upload.wikimedia.org/wikipedia/commons/f/f2/Eo_circle_blue_letter-p.svg" />
-   
-    <!-- Webpage Title -->
-    <title>Prabhnoor Singh</title>
+	<!-- Title -->
+	<title>Prabhnoor Singh - Full Stack Software Engineer - AWS | ReactJs | Spring Boot</title>
 
-    <!-- Import CSS: Main Stylesheet -->
-    <link rel="stylesheet" href="./assets/css/main.css" />
+	<!-- Favicons -->
+	<link rel="apple-touch-icon" sizes="180x180" href="assets/img/favicons/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicons/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="assets/img/favicons/favicon-16x16.png">
+	<link rel="manifest" href="assets/img/favicons/site.webmanifest">
+	<link rel="mask-icon" href="assets/img/favicons/safari-pinned-tab.svg" color="#5bbad5">
 
-    <!-- JavaScripts -->
+	<!-- Styles -->
+	<link rel="stylesheet" type="text/css" href="assets/styles/style.css" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.0/css/all.min.css">
+</head>
+
+<body>
+	<!-- Preloader -->
+	<div class="preloader">
+		<div class="preloader__wrap">
+			<div class="circle-pulse">
+				<div class="circle-pulse__1"></div>
+				<div class="circle-pulse__2"></div>
+			</div>
+			<div class="preloader__progress"><span></span></div>
+		</div>
+	</div>
+
+	<main class="main">
+		<!-- Dark/Light Toggle -->
+		<div class="dark-light m-3">
+			<div class="btn-group" role="group">
+				<button data-toggle="tooltip" title="Switch to Light Mode" type="button" class="btn toggle-btn light"><i class="fas fa-sun"></i></button>
+				<button data-toggle="tooltip" title="Switch to Dark Mode" type="button" class="btn toggle-btn dark"><i class="fas fa-moon"></i></button>
+			  </div>
+		</div>
+
+		<!-- Header Image -->
+		<div class="header-image">
+			<div class="js-parallax" style="background-image: url(assets/img/header_bg_1x.png);"></div>
+		</div>
+
+		<div class="container gutter-top">
+			<!-- Header -->
+			<header class="header box">
+				<div class="header__left">
+					<div class="header__photo">
+						<img class="header__photo-img" src="assets/img/logo/DP.png" alt="Prabhnoor Singh">
+					</div>
+					<div class="header__base-info">
+						<h4 class="title titl--h4">Prabhnoor Singh</h4>
+						<div class="status">Full Stack Developer</div>
+						<ul class="header__social">
+							<li><a target="_blank" href="https://www.linkedin.com/in/prabh-noor-singh/"><i class="fab fa-linkedin"></i></a></li>
+							<li><a target="_blank" href="https://github.com/prabhnosingh"><i class="fab fa-github"></i></a></li>
+							<li><a target="_blank" href="https://www.hackerrank.com/prabhnosingh"><i class="fab fa-hackerrank"></i></a></li>
+							<li><a target="_blank" href="https://leetcode.com/prabhnosingh/"><i class="cib-leetcode"></i></a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="header__right">
+					<ul class="header__contact">
+						<li><span class="overhead">Email</span>prabhnoorsingh23000@gmail.com</li>
+						<li><span class="overhead">Location</span>Waterloo, ON, Canada</li>
+					</ul>
+				</div>
+			</header>
+			
+			<div class="row sticky-parent">
+				<!-- Sidebar nav -->
+				<aside class="col-12 col-md-12 col-lg-2">
+					<div class="sidebar box sticky-column">
+						<ul class="nav js-tabs">
+							<li class="nav__item"><a class="active" href="#about-tab"><i class="icon-user"></i>About</a>
+							</li>
+							<li class="nav__item"><a href="#resume-tab"><i class="icon-file-text"></i>Resume</a></li>
+							<li class="nav__item"><a href="#projects-tab"><i class="icon-codesandbox"></i>Projects</a></li>
+							<li class="nav__item"><a href="#certification-tab"><i class="fa fa-certificate fa-lg" style="margin: 10px;"></i>Certs</a></li>
+							<!-- <li class="nav__item"><a href="#contact-tab"><i class="icon-book"></i>Contact</a></li> -->
+						</ul>
+					</div>
+				</aside>
+
+				<!-- Content -->
+				<div class="col-12 col-md-12 col-lg-10">
+					<div class="box box-content mb-5" id="content">
+
+						<div class="content">
+							<!-- ABOUT -->
+							<div id="about-tab" class="tabcontent active">
+								<div class="pb-0 pb-sm-2">
+									<h1 class="title title--h1 first-title title__separate">About Me</h1>
+									<p> 
+										I am a team player with
+										excellent communication, passionate, and self-learned coders. Learning and developing
+										secure, efficient, and scalable web applications and web-based management systems
+										by writing standard, well-documented, and efficient codes. I want to utilize my
+										institutional skills along with my professional skills to implement innovative ideas into
+										reality.
+									</p>
+									<p>
+										Currently I am working with a fintech company GeekPicker as a Full Stack Software Engineer.
+									</p>
+								</div>
+
+								<!-- What -->
+								<div class="mt-1">
+									<h2 class="title title--h3">What I'm Doing</h2>
+									<div class="row">
+										<!-- Case Item -->
+										<div class="col-12 col-lg-6">
+											<div class="case-item">
+												<img class="case-item__icon"
+													src="assets/icons/design.png"
+													alt="" />
+												<div>
+													<h3 class="title title--h4">Web Design</h3>
+													<p class="case-item__caption">I like to code things from scratch, and enjoy bringing ideas to life in the browser with simple content structure, clean design patterns, and thoughtful interactions.</p>
+												</div>
+											</div>
+										</div>
+
+										<!-- Case Item -->
+										<div class="col-12 col-lg-6">
+											<div class="case-item">
+												<img class="case-item__icon"
+													src="assets/icons/development.png"
+													alt="" />
+												<div>
+													<h3 class="title title--h4">Web Development</h3>
+													<p class="case-item__caption">Developing secure, efficient, and scalable web applications and web-based management systems by writing standard, well-documented, and efficient codes.</p>
+												</div>
+											</div>
+										</div>
+
+										<!-- Case Item -->
+										<!-- <div class="col-12">
+											<div class="case-item">
+												<img class="case-item__icon"
+													src="assets/icons/mobile.png"
+													alt="" />
+												<div>
+													<h3 class="title title--h4">Mobile Apps</h3>
+													<p class="case-item__caption">Design and developing Android and iOS application using React Native by writing well documented, secure and scalable code.</p>
+												</div>
+											</div>
+										</div> -->
+									</div>
+								</div>
+
+								<!-- Testimonials -->
+								<!-- <div class="mt-2">
+									<h2 class="title title--h3">Testimonials</h2>
+									<div class="swiper-container js-carousel-review">
+										<div class="swiper-wrapper">
+											<div class="swiper-slide review-item">
+												<svg class="avatar avatar--80" viewBox="0 0 84 84">
+													<g class="avatar__hexagon">
+														<image xlink:href="assets/img/avatar_male.png" height="100%"
+															width="100%" />
+													</g>
+												</svg>
+												<div class="review-item__textbox">
+													<h4 class="title title--h5">Utsav Bhandari</h4>
+													<p class="review-item__caption">
+														He is the best developer that I have work with also he has a great mindset with his leadership skill. 
+													</p>
+												</div>
+											</div>
+
+											<div class="swiper-slide review-item">
+												<svg class="avatar avatar--80" viewBox="0 0 84 84">
+													<g class="avatar__hexagon">
+														<image xlink:href="assets/img/avatar_male.png" height="100%"
+															width="100%" />
+													</g>
+												</svg>
+												<div class="review-item__textbox">
+													<h4 class="title title--h5">Hsaasn Shuraf</h4>
+													<p class="review-item__caption">
+														Nayeem did a great job of following our direction on site development and managing our junior developer. We got just what we asked for and more. 	
+													</p>
+												</div>
+											</div>
+
+											<div class="swiper-slide review-item">
+												<svg class="avatar avatar--80" viewBox="0 0 84 84">
+													<g class="avatar__hexagon">
+														<image xlink:href="assets/img/avatar_male.png" height="100%"
+															width="100%" />
+													</g>
+												</svg>
+												<div class="review-item__textbox">
+													<h4 class="title title--h5">Muhammad Sohail</h4>
+													<p class="review-item__caption">
+														Nayeem is a pro deveoloper and friendly person. He completed our 5 projects before the deadline and saved our life.
+													</p>
+												</div>
+											</div>
+										</div>
+										<div class="swiper-pagination"></div>
+									</div>
+								</div> -->
+
+								<!-- Clients -->
+								<!-- <div class="mt-4">
+									<h2 class="title title--h3">Clients</h2>
+
+									<div class="swiper-container js-carousel-clients">
+										<div class="swiper-wrapper">
+											<div class="swiper-slide">
+												<a href="#"><img
+														src="assets/img/doormeet.png"
+														alt="Logo" /></a>
+											</div>
+
+											<div class="swiper-slide">
+												<a href="#"><img
+														src="assets/img/saneno.png"
+														alt="Logo" /></a>
+											</div>
+
+											<div class="swiper-slide">
+												<a href="#"><img
+														src="assets/img/leelaam.png"
+														alt="Logo" /></a>
+											</div>
+
+											<div class="swiper-slide">
+												<a href="#"><img
+														src="assets/img/sunbulahhome.png"
+														alt="Logo" /></a>
+											</div>
+											<div class="swiper-slide">
+												<a href="#"><img
+														src="assets/img/doormeet.png"
+														alt="Logo" /></a>
+											</div>
+
+											<div class="swiper-slide">
+												<a href="#"><img
+														src="assets/img/saneno.png"
+														alt="Logo" /></a>
+											</div>
+
+											<div class="swiper-slide">
+												<a href="#"><img
+														src="assets/img/leelaam.png"
+														alt="Logo" /></a>
+											</div>
+
+											<div class="swiper-slide">
+												<a href="#"><img
+														src="assets/img/sunbulahhome.png"
+														alt="Logo" /></a>
+											</div>
+										</div>
+
+										<div class="swiper-pagination"></div>
+									</div>
+								</div> -->
+							</div>
+
+							<!-- RESUME -->
+							<div id="resume-tab" class="tabcontent">
+								<div class="pb-2">
+									<h1 class="title title--h1 first-title title__separate">Resume</h1>
+								</div>
+
+								<!-- Experience -->
+								<div class="row">
+									<div class="col-12">
+										<h2 class="title title--h3"><img class="title-icon"
+												src="assets/icons/education.png"
+												alt="" /> Education</h2>
+										<div class="timeline">
+											<!-- Item -->
+											<article class="timeline__item">
+												<h5 class="title title--h5 timeline__title">University of Windsor - Canada</h5>
+												<span class="timeline__period">May 2023 — Dec 2024</span> <br>
+												<span class="timeline__period">Master of Applied Computing</span>
+												<!-- <p class="timeline__description"> simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make.</p> -->
+											</article>
+
+											<!-- Item -->
+											<article class="timeline__item">
+												<h5 class="title title--h5 timeline__title">Guru Nanak Dev University - India</h5>
+												<span class="timeline__period">July 2018 — May 2022</span><br>
+												<span class="timeline__period">Bachelor of Technology in Computer Science and Engineering</span>
+												<!-- <p class="timeline__description"> simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make.</p> -->
+											</article>
+
+									
+										</div>
+									</div>
+
+									<div class="col-12">
+										<h2 class="title title--h3"><img class="title-icon"
+												src="assets/icons/experience.png"
+												alt="" /> Experience</h2>
+										<div class="timeline">
+											
+											<!-- Item -->
+											<article class="timeline__item">
+												<h5 class="title title--h5 timeline__title">Software Developer Intern</h5>
+												<span class="timeline__period">MAY 2024 — Present</span><br>
+												<span class="timeline__period"><b>BlackBerry - Waterloo, Canada</b> </span>
+<!-- 												<p class="timeline__description">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</p> -->
+											</article>
+											
+
+											<!-- Item -->
+											<article class="timeline__item">
+												<h5 class="title title--h5 timeline__title">Associate Software Engineer</h5>
+												<span class="timeline__period">AUG 2022 — MAR 2023</span><br>
+												<span class="timeline__period"><b>Amdocs - Gurugram, India</b> </span>
+<!-- 												<p class="timeline__description">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</p> -->
+											</article>
+											
+											<!-- Item -->
+											<article class="timeline__item">
+												<h5 class="title title--h5 timeline__title">Front-End Developer</h5>
+												<span class="timeline__period">MAY 2022 — AUG 2022</span><br>
+												<span class="timeline__period"><b>Kalam Solutions - Jaipur, India</b> </span>
+<!-- 												<p class="timeline__description">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</p> -->
+											</article>
+
+											
+										</div>
+									</div>
+								</div>
+
+								<!-- Skills -->
+								<div class="row">
+									<div class="col-12">
+										<h2 class="title title--h3">My Skills</h2>
+										<div class="box box__border">
+											<!-- <div class="progress">
+												<div class="progress-bar" role="progressbar" aria-valuenow="95"
+													aria-valuemin="0" aria-valuemax="100">
+													<div class="progress-text"><span>Web Design</span><span>95%</span>
+													</div>
+												</div>
+												<div class="progress-text"><span>Web Design</span></div>
+											</div>
+
+											<div class="progress">
+												<div class="progress-bar" role="progressbar" aria-valuenow="95"
+													aria-valuemin="0" aria-valuemax="100">
+													<div class="progress-text"><span>Web Development</span><span>95%</span></div>
+												</div>
+												<div class="progress-text"><span>Web Development</span></div>
+											</div>
+
+											<div class="progress">
+												<div class="progress-bar" role="progressbar" aria-valuenow="80"
+													aria-valuemin="0" aria-valuemax="100">
+													<div class="progress-text"><span>Mobile Apps Development</span><span>80%</span>
+													</div>
+												</div>
+												<div class="progress-text"><span>Mobile Apps Development</span></div>
+											</div> -->
+											<div>
+												<span class="badge badge-primary badge-large">Java</span>
+												<span class="badge badge-primary badge-large">Python</span>
+												<span class="badge badge-primary badge-large">C#.NET</span>
+												<span class="badge badge-primary badge-large">JavaScript</span>
+												<span class="badge badge-primary badge-large">Groovy</span>
+												<span class="badge badge-primary badge-large">C/C++</span>
+												<span class="badge badge-primary badge-large">ReactJs</span>
+												<span class="badge badge-primary badge-large">Redux</span>
+												<span class="badge badge-primary badge-large">NodeJs</span>
+												<span class="badge badge-primary badge-large">ExpressJs</span>
+												<span class="badge badge-primary badge-large">NextJS</span>
+												<span class="badge badge-primary badge-large">RabbitMQ</span>
+												<span class="badge badge-primary badge-large">MongoDB</span>
+												<span class="badge badge-primary badge-large">MySQL</span>
+												<span class="badge badge-primary badge-large">Firebase</span>
+												<span class="badge badge-primary badge-large">AWS Cloud</span>
+												<span class="badge badge-primary badge-large">Docker</span>
+												<span class="badge badge-primary badge-large">Jenkins</span>
+												<span class="badge badge-primary badge-large">ElasticSearch</span>
+												<span class="badge badge-primary badge-large">RESTFul API</span>
+												<span class="badge badge-primary badge-large">SOAP API</span>
+												<span class="badge badge-primary badge-large">Fast API</span>
+												<span class="badge badge-primary badge-large">Git</span>
+												<span class="badge badge-primary badge-large">CI-CD</span>
+												<span class="badge badge-primary badge-large">Windows</span>
+												<span class="badge badge-primary badge-large">Linux</span>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+
+							<!-- Projects -->
+							<div id="projects-tab" class="tabcontent">
+								<div class="pb-2">
+									<h1 class="title title--h1 first-title title__separate">Portfolio</h1>
+								</div>
+
+								<!-- Filter -->
+								<div class="select">
+									<span class="placeholder">Select category</span>
+									<ul class="filter">
+										<li class="filter__item">Category</li>
+										<li class="filter__item active" data-filter="*"><a class="filter__link active"
+												href="#filter">All</a></li>
+										<li class="filter__item" data-filter=".web-development"><a class="filter__link"
+												href="#filter">Web Development</a></li>
+										<li class="filter__item" data-filter=".web-design"><a class="filter__link"
+												href="#filter">Web Design</a></li>
+										<li class="filter__item" data-filter=".mobile-apps"><a class="filter__link"
+												href="#filter">Mobile APPs Development</a></li>
+									</ul>
+									<input type="hidden" name="changemetoo" />
+								</div>
+
+								<!-- Gallery -->
+								<div class="gallery-grid js-grid-row js-filter-container">
+									<div class="gutter-sizer"></div>
+									<!-- Item 1 -->
+									<figure class="gallery-grid__item web-development">
+										<div class="gallery-grid__image-wrap">
+											<img class="gallery-grid__image cover lazyload"
+												src="assets/img/header_bg_1x.png" data-zoom alt="" />
+										</div>
+										<figcaption class="gallery-grid__caption">
+											<h4 class="title title--h6 gallery-grid__title">Half Avocado</h4>
+											<span class="gallery-grid__category">Web Development</span>
+										</figcaption>
+									</figure>
+
+									<!-- Item 2 -->
+									<figure class="gallery-grid__item web-development">
+										<div class="gallery-grid__image-wrap">
+											<img class="gallery-grid__image cover lazyload"
+												src="assets/img/header_bg_1x.png" data-zoom alt="" />
+										</div>
+										<figcaption class="gallery-grid__caption">
+											<h4 class="title title--h6 gallery-grid__title">Pink Flamingo</h4>
+											<span class="gallery-grid__category">Web Development</span>
+										</figcaption>
+									</figure>
+
+									<!-- Item 3 -->
+									<figure class="gallery-grid__item web-design">
+										<div class="gallery-grid__image-wrap">
+											<img class="gallery-grid__image cover lazyload"
+												src="assets/img/header_bg_1x.png" data-zoom alt="" />
+										</div>
+										<figcaption class="gallery-grid__caption">
+											<h4 class="title title--h6 gallery-grid__title">Abstract</h4>
+											<span class="gallery-grid__category">Web Design</span>
+										</figcaption>
+									</figure>
+
+									<!-- Item 4 -->
+									<figure class="gallery-grid__item web-design">
+										<div class="gallery-grid__image-wrap">
+											<img class="gallery-grid__image cover lazyload"
+												src="assets/img/header_bg_1x.png" data-zoom alt="" />
+										</div>
+										<figcaption class="gallery-grid__caption">
+											<h4 class="title title--h6 gallery-grid__title">Abstract #2</h4>
+											<span class="gallery-grid__category">Web Design</span>
+										</figcaption>
+									</figure>
+
+									<!-- Item 5 -->
+									<figure class="gallery-grid__item web-design">
+										<div class="gallery-grid__image-wrap">
+											<img class="gallery-grid__image cover lazyload"
+												src="assets/img/header_bg_1x.png" data-zoom alt="" />
+										</div>
+										<figcaption class="gallery-grid__caption">
+											<h4 class="title title--h6 gallery-grid__title">Abstract #3</h4>
+											<span class="gallery-grid__category">Web Design</span>
+										</figcaption>
+									</figure>
+
+									<!-- Item 6 -->
+									<figure class="gallery-grid__item mobile-apps">
+										<div class="gallery-grid__image-wrap">
+											<img class="gallery-grid__image cover lazyload"
+												src="assets/img/header_bg_1x.png" data-zoom alt="" />
+										</div>
+										<figcaption class="gallery-grid__caption">
+											<h4 class="title title--h6 gallery-grid__title">Golden Gate</h4>
+											<span class="gallery-grid__category">Mobile Apps</span>
+										</figcaption>
+									</figure>
+
+									<!-- Item 7 -->
+									<figure class="gallery-grid__item web-development">
+										<div class="gallery-grid__image-wrap">
+											<img class="gallery-grid__image cover lazyload"
+												src="assets/img/header_bg_1x.png" data-zoom alt="" />
+										</div>
+										<figcaption class="gallery-grid__caption">
+											<h4 class="title title--h6 gallery-grid__title">Peach</h4>
+											<span class="gallery-grid__category">Web Development</span>
+										</figcaption>
+									</figure>
+
+									<!-- Item 8 -->
+									<figure class="gallery-grid__item web-design">
+										<div class="gallery-grid__image-wrap">
+											<img class="gallery-grid__image cover lazyload"
+												src="assets/img/header_bg_1x.png" data-zoom alt="" />
+										</div>
+										<figcaption class="gallery-grid__caption">
+											<h4 class="title title--h6 gallery-grid__title">Abstract #4</h4>
+											<span class="gallery-grid__category">Web Design</span>
+										</figcaption>
+									</figure>
+
+									<!-- Item 9 -->
+									<figure class="gallery-grid__item mobile-apps">
+										<div class="gallery-grid__image-wrap">
+											<img class="gallery-grid__image cover lazyload"
+												src="assets/img/header_bg_1x.png" data-zoom alt="" />
+										</div>
+										<figcaption class="gallery-grid__caption">
+											<h4 class="title title--h6 gallery-grid__title">Hedgehog</h4>
+											<span class="gallery-grid__category">Mobile Apps</span>
+										</figcaption>
+									</figure>
+								</div><!-- Gallery End -->
+							</div>
+
+							<!-- Certifications -->
+							<div id="certification-tab" class="tabcontent">
+								<div class="pb-2">
+									<h1 class="title title--h1 first-title title__separate">Certifications</h1>
+								</div>
+
+								<!-- News -->
+								<div class="news-grid">
+									<!-- Post -->
+									<article class="news-item box">
+										<div class="news-item__image-wrap overlay overlay--45">
+											<!-- <div class="news-item__date">September<span>2024</span></div> -->
+											<a class="news-item__link" target="_blank" href="https://www.credly.com/badges/83f0d27d-89a4-49e4-857e-7efdfacb64e0/public_url"></a>
+											<img class="cover lazyload" src="assets/img/aws-certified-solutions-architect.png" alt="aws-certified-solutions-architect" />
+										</div>
+										<div class="news-item__caption">
+											<h2 class="title title--h4">AWS Certified Solutions Architect Associate</h2>
+											<p>July 2024 - Sept 2024</p>
+										</div>
+									</article>
+
+									<!-- Post -->
+									<article class="news-item box">
+										<div class="news-item__image-wrap overlay overlay--45">
+											<!-- <div class="news-item__date">15<span>Jun</span></div> -->
+											<a class="news-item__link" target="_blank" href="https://www.credly.com/badges/72759971-4d88-46d0-89d5-afebf371a699/public_url"></a>
+											<img class="cover lazyload" src="assets/img/aws-certified-cloud-practitioner.png" alt="aws-certified-cloud-practitioner" />
+										</div>
+										<div class="news-item__caption">
+											<h2 class="title title--h4">AWS Certified Cloud Practitioner</h2>
+											<p>May 2024 - June 2024</p>
+										</div>
+									</article>
+
+									<!-- Post -->
+									<article class="news-item box">
+										<div class="news-item__image-wrap overlay overlay--45">
+											<!-- <div class="news-item__date">Dec<span>2019</span></div> -->
+											<a class="news-item__link" target="_blank" href="https://www.linkedin.com/in/prabh-noor-singh/details/certifications/"></a>
+											<img class="cover lazyload" src="assets/img/Certifications.png" alt="All certifications" />
+										</div>
+										<div class="news-item__caption">
+											<h2 class="title title--h4">All Certifications</h2>
+											<p>All other certifications are posted on LinkedIn</p>
+										</div>
+									</article>
+								</div>
+							</div>
+
+							<!-- CONTACT -->
+							<!-- CONTACT -->
+							<!-- <div id="contact-tab" class="tabcontent"> -->
+								<!-- <div class="pb-2"> -->
+									<!-- <h1 class="title title--h1 first-title title__separate">Contact</h1> -->
+								<!-- </div> -->
+
+								<!-- Contact -->
+								<!-- <div class="map" id="map"> -->
+									<!-- <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d185278.0686554141!2d-80.71152724657738!3d43.48210015119083!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882bf1565ffe672b%3A0x5037b28c7231d90!2sWaterloo%2C%20ON!5e0!3m2!1sen!2sca!4v1726430663811!5m2!1sen!2sca" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> -->
+								<!-- </div> -->
+								<!-- <h2 class="title title--h3">Contact Form</h2> -->
+
+								<!-- <form id="contact-form" class="contact-form" data-toggle="validator">
+									<div class="row">
+										<div class="form-group col-12 col-md-6">
+											<input type="text" class="form-control" id="nameContact" name="nameContact"
+												placeholder="Full name" required="required" autocomplete="on"
+												oninvalid="setCustomValidity('Fill in the field')"
+												onkeyup="setCustomValidity('')">
+											<div class="help-block with-errors"></div>
+										</div>
+										<div class="form-group col-12 col-md-6">
+											<input type="email" class="form-control" id="emailContact"
+												name="emailContact" placeholder="Email address" required="required"
+												autocomplete="on" oninvalid="setCustomValidity('Email is incorrect')"
+												onkeyup="setCustomValidity('')">
+											<div class="help-block with-errors"></div>
+										</div>
+										<div class="form-group col-12 col-md-12">
+											<textarea class="textarea form-control" id="messageContact"
+												name="messageContact" placeholder="Your Message" rows="4"
+												required="required" oninvalid="setCustomValidity('Fill in the field')"
+												onkeyup="setCustomValidity('')"></textarea>
+											<div class="help-block with-errors"></div>
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-12 col-md-6 order-2 order-md-1 text-center text-md-left">
+											<div id="validator-contact" class="hidden"></div>
+										</div>
+										<div class="col-12 col-md-6 order-1 order-md-2 text-right">
+											<button type="submit" class="btn"><i class="font-icon icon-send"></i> Send
+												Message</button>
+										</div>
+									</div>
+								</form> -->
+							<!-- </div> -->
+						</div>
+					</div>
+					<!-- Footer -->
+					<footer class="footer">© 2024 @prabhnosingh</footer>
+				</div>
+			</div>
+		</div>
+	</main>
+
+	<!-- BackToTop -->
+	<div class="back-to-top"></div>
+
+	<!-- JavaScripts -->
 	<script src="assets/js/jquery-3.4.1.min.js"></script>
 	<script src="assets/js/plugins.min.js"></script>
 	<script src="assets/js/common.js"></script>
-  
-  </head>
 
-  <body>
-    <div id="particles-js">
-      <div class="header">
-        <h1>
-          <span class="site-title">Prabhnoor SINGH</span>
-          <span class="site-description">Programmer • Software Engineer • Web Developer</span>
-        </h1>
-        <div class="header-icons">
-          <a aria-label="My LinkedIn Profile" target="_blank" href="https://www.linkedin.com/in/prabh-noor-singh/">
-            <i class="icon fa fa-linkedin" aria-hidden="true"></i>
-          </a>
-          <a aria-label="My Github Profile" target="_blank" href="https://github.com/prabhnoor23">
-            <i class="icon fa fa-github-alt" aria-hidden="true"></i>
-          </a>
-          <!-- <a aria-label="My Résumé" target="_blank" href="./resume.html">
-            <i class="icon fa fa fa-file-pdf-o" aria-hidden="true"></i>
-          </a> -->
-          <a aria-label="Send Email" href="mailto:prabhno@uwindsor.ca" target="_blank"
-            ><i class="icon fa fa-envelope"></i
-          ></a>
-        </div> 
-        <div class="header-links">
-          <a class="link" href="#about" data-scroll>About Me</a>
-          <a class="link" href="#projects" data-scroll>Projects</a>
-        </div>
-      </div>
-      <a class="down" href="#about" data-scroll><i class="icon fa fa-chevron-down" aria-hidden="true"></i></a>
-    </div>
+	<script>
+		if (localStorage.getItem("theme") === null) {
+			localStorage.setItem('theme', 'dark');
+		} 
+		if(localStorage.getItem('theme') === 'dark') {
+			$('head').append('<link rel="stylesheet" id="dark-mode" type="text/css" href="assets/styles/style-dark.css" />');
+		} else {
+			$('head link[href="assets/styles/style-dark.css"]').remove();
+		}
 
-    <!-- About Section -->
-    <section id="about">
-      <!-- User Introduction-->
-      <div class="user-details">
-        <h1>My Story</h1>
-        <picture>
-          <source
-            type="image/jpg"
-            srcset="./assets/img/webp/DP.jpg"
-            alt="Professional Me"
-            width="20%"
-            style="border-radius: 50%"
-          />
-          <img
-            src="./assets/img/jpg/DP.png"
-            alt="Professional Me"
-            width="20%"
-            style="border-radius: 50%"
-          />
-        </picture>
-        <p>
-          I am a masters student at University of Windsor pursing my Master of Applied Computing degree, majoring in Computer Science 
-          with an intent to focus on Software Engineering and Cloud Computing. I am currently interning as a Software tools developer for 8 months,
-          ending in December 2024 at Blackberry, Waterloo. I am working on debugging a legacy codebase to make it compatible for a newer
-          version of different products and building CI/CD pipelines using tools like Jenkins, Docker and finally running automated tests on AWS. 
-          <!-- I have expertise in software development, web development and data analysis from my previous professional experiences.  -->
-          I have a strong focus on learning and continually improving my skills. I am also 2x AWS certified, having "AWS Certified Cloud Practitioner" and "AWS Certified Solutions Architect Associate" Certifications.
-          I am looking for full time opportunities starting in January 2025. 
-          I am open to various job roles, particularly those in Software Development, DevOps and Cloud Computing
+		$('.light').click(function (){
+			localStorage.setItem('theme', 'light');
+			$('head link[href="assets/styles/style-dark.css"]').remove();
+		});
 
+		$('.dark').click(function (){
+			localStorage.setItem('theme', 'dark');
+			$('head').append('<link rel="stylesheet" id="dark-mode" type="text/css" href="assets/styles/style-dark.css" />');
+		});
 
-        </p>
-      </div>
+		$('[data-toggle="tooltip"]').tooltip({
+			trigger : 'hover'
+		});
+	</script>
+</body>
 
-      <!-- User Specifics -->
-      <div class="user">
-        <!-- Technology Stack #1: Languages -->
-        <div class="tech">
-          <h2>Languages</h2>
-          <i class="devicon-python-plain colored"></i>
-          <i class="devicon-java-plain-wordmark colored"></i>
-          <i class="devicon-cplusplus-plain colored"></i>
-          <i class="devicon-javascript-plain colored"></i>
-          <p>My favorite languages for systems programming, software engineering, and data analysis.</p>
-        </div>
-
-        <!-- Technology Stack #2: Front-End -->
-        <div class="tech">
-          <h2>Front-End</h2>
-          <i class="devicon-react-original colored"></i>
-          <i class="devicon-bootstrap-plain-wordmark colored"></i>
-          <i class="devicon-html5-plain-wordmark colored"></i>
-          <i class="devicon-css3-plain-wordmark colored"></i>
-          <p>My preferred technologies for front-end web development and component design.</p>
-        </div>
-
-        <!-- Technology Stack #3: Back-End -->
-        <div class="tech">
-          <h2>Back-End</h2>
-          <i class="devicon-nodejs-plain colored"></i>
-          <i class="devicon-express-original-wordmark colored"></i>
-          <i class="devicon-mongodb-plain-wordmark colored"></i>
-          <!-- <i class="devicon-microsoftsqlserver-plain-wordmark colored"></i> -->
-          <i class="devicon-mysql-plain-wordmark colored"></i>
-          <!-- <i class="devicon-postgresql-plain-wordmark colored"></i> -->
-          <p>My preferred technologies for back-end web programming and database architecture.</p>
-        </div>
-
-        <!-- Technology Stack #4: Tools -->
-        <div class="tech">
-          <h2>Tools</h2>
-          <i class="devicon-git-plain-wordmark colored"></i>
-          <i class="devicon-visualstudio-plain colored"></i>
-          <i class="devicon-github-plain-wordmark colored"></i>
-          <i class="devicon-docker-plain-wordmark colored"></i>
-          <p>My favorite tools for version control, code editing, and container orchestration.</p>
-        </div>
-      </div>
-    </section>
-
- 
-     
-
-    <!-- Projects Section -->
-    <section id="projects">
-      <div class="user-details">
-        <h1>Featured Projects</h1>
-      </div>
-
-      <!-- User Project #1: Used car  -->
-      <div class="user-projects">
-        <div class="images-left">
-          <picture>
-            <source type="image/png" srcset="./assets/img/jpg/used_car.png" alt="Used Car prediction" />
-            <img alt="Used Car prediction" src="./assets/img/jpg/used_car.png"  style="border: 2px solid black; padding: 2px;" /> 
-          </picture>
-        </div>
-        <div class="contents-right" style="text-align: center">
-          <h3>Car Price Prediction</h3>
-          <div>
-         
-            <svg 
-            role="img" 
-            height="32"
-            width="32"
-            viewBox="0 0 24 24" 
-            xmlns="http://www.w3.org/2000/svg"
-            fill="#4faa41">
-            <title>MongoDB</title>
-            <path d="M17.193 9.555c-1.264-5.58-4.252-7.414-4.573-8.115-.28-.394-.53-.954-.735-1.44-.036.495-.055.685-.523 1.184-.723.566-4.438 3.682-4.74 10.02-.282 5.912 4.27 9.435 4.888 9.884l.07.05A73.49 73.49 0 0111.91 24h.481c.114-1.032.284-2.056.51-3.07.417-.296.604-.463.85-.693a11.342 11.342 0 003.639-8.464c.01-.814-.103-1.662-.197-2.218zm-5.336 8.195s0-8.291.275-8.29c.213 0 .49 10.695.49 10.695-.381-.045-.765-1.76-.765-2.405z"/></svg>
-            
-            &nbsp;
-
-            <svg 
-            role="img" 
-            viewBox="0 0 24 24" 
-            height="32"
-            width="32"
-            xmlns="http://www.w3.org/2000/svg">
-            <title>Express</title>
-            <path d="M24 18.588a1.529 1.529 0 01-1.895-.72l-3.45-4.771-.5-.667-4.003 5.444a1.466 1.466 0 01-1.802.708l5.158-6.92-4.798-6.251a1.595 1.595 0 011.9.666l3.576 4.83 3.596-4.81a1.435 1.435 0 011.788-.668L21.708 7.9l-2.522 3.283a.666.666 0 000 .994l4.804 6.412zM.002 11.576l.42-2.075c1.154-4.103 5.858-5.81 9.094-3.27 1.895 1.489 2.368 3.597 2.275 5.973H1.116C.943 16.447 4.005 19.009 7.92 17.7a4.078 4.078 0 002.582-2.876c.207-.666.548-.78 1.174-.588a5.417 5.417 0 01-2.589 3.957 6.272 6.272 0 01-7.306-.933 6.575 6.575 0 01-1.64-3.858c0-.235-.08-.455-.134-.666A88.33 88.33 0 010 11.577zm1.127-.286h9.654c-.06-3.076-2.001-5.258-4.59-5.278-2.882-.04-4.944 2.094-5.071 5.264z"/></svg>
-            
-            &nbsp;
-            
-            <img
-              height="32"
-              width="32"
-              src="https://unpkg.com/simple-icons@3.4.0/icons/react.svg"
-              style="filter: invert(73%) sepia(74%) saturate(1552%) hue-rotate(169deg) brightness(109%) contrast(97%)"
-            />
-            &nbsp;
-            
-            <svg 
-            viewBox="0 0 24 24" 
-            height="32"
-            width="32"
-            fill="#83cd29">
-            xmlns="http://www.w3.org/2000/svg"
-            <title>Node.js</title>
-            <path d="M11.998,24c-0.321,0-0.641-0.084-0.922-0.247l-2.936-1.737c-0.438-0.245-0.224-0.332-0.08-0.383 c0.585-0.203,0.703-0.25,1.328-0.604c0.065-0.037,0.151-0.023,0.218,0.017l2.256,1.339c0.082,0.045,0.197,0.045,0.272,0l8.795-5.076 c0.082-0.047,0.134-0.141,0.134-0.238V6.921c0-0.099-0.053-0.192-0.137-0.242l-8.791-5.072c-0.081-0.047-0.189-0.047-0.271,0 L3.075,6.68C2.99,6.729,2.936,6.825,2.936,6.921v10.15c0,0.097,0.054,0.189,0.139,0.235l2.409,1.392 c1.307,0.654,2.108-0.116,2.108-0.89V7.787c0-0.142,0.114-0.253,0.256-0.253h1.115c0.139,0,0.255,0.112,0.255,0.253v10.021 c0,1.745-0.95,2.745-2.604,2.745c-0.508,0-0.909,0-2.026-0.551L2.28,18.675c-0.57-0.329-0.922-0.945-0.922-1.604V6.921 c0-0.659,0.353-1.275,0.922-1.603l8.795-5.082c0.557-0.315,1.296-0.315,1.848,0l8.794,5.082c0.57,0.329,0.924,0.944,0.924,1.603 v10.15c0,0.659-0.354,1.273-0.924,1.604l-8.794,5.078C12.643,23.916,12.324,24,11.998,24z M19.099,13.993 c0-1.9-1.284-2.406-3.987-2.763c-2.731-0.361-3.009-0.548-3.009-1.187c0-0.528,0.235-1.233,2.258-1.233 c1.807,0,2.473,0.389,2.747,1.607c0.024,0.115,0.129,0.199,0.247,0.199h1.141c0.071,0,0.138-0.031,0.186-0.081 c0.048-0.054,0.074-0.123,0.067-0.196c-0.177-2.098-1.571-3.076-4.388-3.076c-2.508,0-4.004,1.058-4.004,2.833 c0,1.925,1.488,2.457,3.895,2.695c2.88,0.282,3.103,0.703,3.103,1.269c0,0.983-0.789,1.402-2.642,1.402 c-2.327,0-2.839-0.584-3.011-1.742c-0.02-0.124-0.126-0.215-0.253-0.215h-1.137c-0.141,0-0.254,0.112-0.254,0.253 c0,1.482,0.806,3.248,4.655,3.248C17.501,17.007,19.099,15.91,19.099,13.993z"/>
-          </svg>
-            
-            
-            
-          </div>
-          <p style="text-align: justify">
-            I built this project to develop reliable and accurate car price prediction model. The dataset scraps data from internet utilizes a comprehensive range of features such as automobile make, model, year, mileage, fuel type,
-            engine size, and many more. Neural network model is used to predict the price. 
-            Frontend interface developed using ReactJS and used Python fastapi for developing RestApi.
-            
-            
-          </p>
-          <a class="project-link" target="_blank" href="https://github.com/prabhnoor23/used-car-price-prediction">Check it out!</a>
-        </div>
-      </div>
-
-    
-      <!-- User Project #2: School Scout  -->
-      <div class="user-projects">
-        <div class="images-right">
-          <picture>
-            <source type="image/png" srcset="./assets/img/webp/mern2-ss.png" alt="School Scout" />
-            <img alt="School Scout" src="./assets/img/jpg/mern2-ss.png" style="border: 2px solid black; padding: 2px;"/> 
-          </picture>
-        </div>
-        <div class="contents" style="text-align: center">
-          <h3>School Scout</h3>
-          <div>
-         
-            <svg 
-            role="img" 
-            height="32"
-            width="32"
-            viewBox="0 0 24 24" 
-            xmlns="http://www.w3.org/2000/svg"
-            fill="#4faa41">
-            <title>MongoDB</title>
-            <path d="M17.193 9.555c-1.264-5.58-4.252-7.414-4.573-8.115-.28-.394-.53-.954-.735-1.44-.036.495-.055.685-.523 1.184-.723.566-4.438 3.682-4.74 10.02-.282 5.912 4.27 9.435 4.888 9.884l.07.05A73.49 73.49 0 0111.91 24h.481c.114-1.032.284-2.056.51-3.07.417-.296.604-.463.85-.693a11.342 11.342 0 003.639-8.464c.01-.814-.103-1.662-.197-2.218zm-5.336 8.195s0-8.291.275-8.29c.213 0 .49 10.695.49 10.695-.381-.045-.765-1.76-.765-2.405z"/></svg>
-            
-            &nbsp;
-
-            <svg 
-            role="img" 
-            viewBox="0 0 24 24" 
-            height="32"
-            width="32"
-            xmlns="http://www.w3.org/2000/svg">
-            <title>Express</title>
-            <path d="M24 18.588a1.529 1.529 0 01-1.895-.72l-3.45-4.771-.5-.667-4.003 5.444a1.466 1.466 0 01-1.802.708l5.158-6.92-4.798-6.251a1.595 1.595 0 011.9.666l3.576 4.83 3.596-4.81a1.435 1.435 0 011.788-.668L21.708 7.9l-2.522 3.283a.666.666 0 000 .994l4.804 6.412zM.002 11.576l.42-2.075c1.154-4.103 5.858-5.81 9.094-3.27 1.895 1.489 2.368 3.597 2.275 5.973H1.116C.943 16.447 4.005 19.009 7.92 17.7a4.078 4.078 0 002.582-2.876c.207-.666.548-.78 1.174-.588a5.417 5.417 0 01-2.589 3.957 6.272 6.272 0 01-7.306-.933 6.575 6.575 0 01-1.64-3.858c0-.235-.08-.455-.134-.666A88.33 88.33 0 010 11.577zm1.127-.286h9.654c-.06-3.076-2.001-5.258-4.59-5.278-2.882-.04-4.944 2.094-5.071 5.264z"/></svg>
-            
-            &nbsp;
-            
-            <img
-              height="32"
-              width="32"
-              src="https://unpkg.com/simple-icons@3.4.0/icons/react.svg"
-              style="filter: invert(73%) sepia(74%) saturate(1552%) hue-rotate(169deg) brightness(109%) contrast(97%)"
-            />
-            &nbsp;
-            
-            <svg 
-            viewBox="0 0 24 24" 
-            height="32"
-            width="32"
-            fill="#83cd29">
-            xmlns="http://www.w3.org/2000/svg"
-            <title>Node.js</title>
-            <path d="M11.998,24c-0.321,0-0.641-0.084-0.922-0.247l-2.936-1.737c-0.438-0.245-0.224-0.332-0.08-0.383 c0.585-0.203,0.703-0.25,1.328-0.604c0.065-0.037,0.151-0.023,0.218,0.017l2.256,1.339c0.082,0.045,0.197,0.045,0.272,0l8.795-5.076 c0.082-0.047,0.134-0.141,0.134-0.238V6.921c0-0.099-0.053-0.192-0.137-0.242l-8.791-5.072c-0.081-0.047-0.189-0.047-0.271,0 L3.075,6.68C2.99,6.729,2.936,6.825,2.936,6.921v10.15c0,0.097,0.054,0.189,0.139,0.235l2.409,1.392 c1.307,0.654,2.108-0.116,2.108-0.89V7.787c0-0.142,0.114-0.253,0.256-0.253h1.115c0.139,0,0.255,0.112,0.255,0.253v10.021 c0,1.745-0.95,2.745-2.604,2.745c-0.508,0-0.909,0-2.026-0.551L2.28,18.675c-0.57-0.329-0.922-0.945-0.922-1.604V6.921 c0-0.659,0.353-1.275,0.922-1.603l8.795-5.082c0.557-0.315,1.296-0.315,1.848,0l8.794,5.082c0.57,0.329,0.924,0.944,0.924,1.603 v10.15c0,0.659-0.354,1.273-0.924,1.604l-8.794,5.078C12.643,23.916,12.324,24,11.998,24z M19.099,13.993 c0-1.9-1.284-2.406-3.987-2.763c-2.731-0.361-3.009-0.548-3.009-1.187c0-0.528,0.235-1.233,2.258-1.233 c1.807,0,2.473,0.389,2.747,1.607c0.024,0.115,0.129,0.199,0.247,0.199h1.141c0.071,0,0.138-0.031,0.186-0.081 c0.048-0.054,0.074-0.123,0.067-0.196c-0.177-2.098-1.571-3.076-4.388-3.076c-2.508,0-4.004,1.058-4.004,2.833 c0,1.925,1.488,2.457,3.895,2.695c2.88,0.282,3.103,0.703,3.103,1.269c0,0.983-0.789,1.402-2.642,1.402 c-2.327,0-2.839-0.584-3.011-1.742c-0.02-0.124-0.126-0.215-0.253-0.215h-1.137c-0.141,0-0.254,0.112-0.254,0.253 c0,1.482,0.806,3.248,4.655,3.248C17.501,17.007,19.099,15.91,19.099,13.993z"/>
-          </svg>
-            
-            
-            
-          </div>
-          <p style="text-align: justify">
-            I developed and designed a website to explore the benefits of using MERN Stack in efficient storage and retrieval of data with 
-            interactive UI using React JS. This application provided the facility of performing CRUD operations on student data.
-          </p>
-          <a class="project-link" target="_blank" href="https://github.com/prabhnoor23/School_Scout.git">Check it out!</a>
-        </div>
-      </div>
-
-    
-
-      <!-- User Project #3: Bike Store Web API -->
-      <div class="user-projects">
-        <div class="images-left">
-          <picture>
-            <source type="image/png" srcset="./assets/img/webp/bike-store-ss.png" alt="Bike Store Web API" />
-            <img alt="Bike Store Web API" src="./assets/img/jpg/bike-store-ss.png" style="border: 2px solid black; padding: 2px;"/>
-          </picture>
-        </div>
-        <div class="contents-right" style="text-align: center">
-          <h3>Bike Store Web API</h3>
-          <div>
-
-            <svg 
-            role="img" viewBox="0 0 24 24" 
-            height="32"
-            width="32"
-
-            xmlns="http://www.w3.org/2000/svg">
-            <title>C#</title>
-            <path d="M1.194 7.543v8.913c0 1.103.588 2.122 1.544 2.674l7.718 4.456a3.086 3.086 0 0 0 3.088 0l7.718-4.456a3.087 3.087 0 0 0 1.544-2.674V7.543a3.084 3.084 0 0 0-1.544-2.673L13.544.414a3.086 3.086 0 0 0-3.088 0L2.738 4.87a3.085 3.085 0 0 0-1.544 2.673Zm5.403 2.914v3.087a.77.77 0 0 0 .772.772.773.773 0 0 0 .772-.772.773.773 0 0 1 1.317-.546.775.775 0 0 1 .226.546 2.314 2.314 0 1 1-4.631 0v-3.087c0-.615.244-1.203.679-1.637a2.312 2.312 0 0 1 3.274 0c.434.434.678 1.023.678 1.637a.769.769 0 0 1-.226.545.767.767 0 0 1-1.091 0 .77.77 0 0 1-.226-.545.77.77 0 0 0-.772-.772.771.771 0 0 0-.772.772Zm12.35 3.087a.77.77 0 0 1-.772.772h-.772v.772a.773.773 0 0 1-1.544 0v-.772h-1.544v.772a.773.773 0 0 1-1.317.546.775.775 0 0 1-.226-.546v-.772H12a.771.771 0 1 1 0-1.544h.772v-1.543H12a.77.77 0 1 1 0-1.544h.772v-.772a.773.773 0 0 1 1.317-.546.775.775 0 0 1 .226.546v.772h1.544v-.772a.773.773 0 0 1 1.544 0v.772h.772a.772.772 0 0 1 0 1.544h-.772v1.543h.772a.776.776 0 0 1 .772.772Zm-3.088-2.315h-1.544v1.543h1.544v-1.543Z"/></svg>
-
-
-            &nbsp;
-
-            <svg 
-            role="img" 
-            height="32"
-            width="32"
-            fill = "#00618a"
-            viewBox="0 0 24 24" 
-            xmlns="http://www.w3.org/2000/svg">
-            <title>MySQL</title>
-            <path d="M16.405 5.501c-.115 0-.193.014-.274.033v.013h.014c.054.104.146.18.214.273.054.107.1.214.154.32l.014-.015c.094-.066.14-.172.14-.333-.04-.047-.046-.094-.08-.14-.04-.067-.126-.1-.18-.153zM5.77 18.695h-.927a50.854 50.854 0 00-.27-4.41h-.008l-1.41 4.41H2.45l-1.4-4.41h-.01a72.892 72.892 0 00-.195 4.41H0c.055-1.966.192-3.81.41-5.53h1.15l1.335 4.064h.008l1.347-4.064h1.095c.242 2.015.384 3.86.428 5.53zm4.017-4.08c-.378 2.045-.876 3.533-1.492 4.46-.482.716-1.01 1.073-1.583 1.073-.153 0-.34-.046-.566-.138v-.494c.11.017.24.026.386.026.268 0 .483-.075.647-.222.197-.18.295-.382.295-.605 0-.155-.077-.47-.23-.944L6.23 14.615h.91l.727 2.36c.164.536.233.91.205 1.123.4-1.064.678-2.227.835-3.483zm12.325 4.08h-2.63v-5.53h.885v4.85h1.745zm-3.32.135l-1.016-.5c.09-.076.177-.158.255-.25.433-.506.648-1.258.648-2.253 0-1.83-.718-2.746-2.155-2.746-.704 0-1.254.232-1.65.697-.43.508-.646 1.256-.646 2.245 0 .972.19 1.686.574 2.14.35.41.877.615 1.583.615.264 0 .506-.033.725-.098l1.325.772.36-.622zM15.5 17.588c-.225-.36-.337-.94-.337-1.736 0-1.393.424-2.09 1.27-2.09.443 0 .77.167.977.5.224.362.336.936.336 1.723 0 1.404-.424 2.108-1.27 2.108-.445 0-.77-.167-.978-.5zm-1.658-.425c0 .47-.172.856-.516 1.156-.344.3-.803.45-1.384.45-.543 0-1.064-.172-1.573-.515l.237-.476c.438.22.833.328 1.19.328.332 0 .593-.073.783-.22a.754.754 0 00.3-.615c0-.33-.23-.61-.648-.845-.388-.213-1.163-.657-1.163-.657-.422-.307-.632-.636-.632-1.177 0-.45.157-.81.47-1.085.315-.278.72-.415 1.22-.415.512 0 .98.136 1.4.41l-.213.476a2.726 2.726 0 00-1.064-.23c-.283 0-.502.068-.654.206a.685.685 0 00-.248.524c0 .328.234.61.666.85.393.215 1.187.67 1.187.67.433.305.648.63.648 1.168zm9.382-5.852c-.535-.014-.95.04-1.297.188-.1.04-.26.04-.274.167.055.053.063.14.11.214.08.134.218.313.346.407.14.11.28.216.427.31.26.16.555.255.81.416.145.094.293.213.44.313.073.05.12.14.214.172v-.02c-.046-.06-.06-.147-.105-.214-.067-.067-.134-.127-.2-.193a3.223 3.223 0 00-.695-.675c-.214-.146-.682-.35-.77-.595l-.013-.014c.146-.013.32-.066.46-.106.227-.06.435-.047.67-.106.106-.027.213-.06.32-.094v-.06c-.12-.12-.21-.283-.334-.395a8.867 8.867 0 00-1.104-.823c-.21-.134-.476-.22-.697-.334-.08-.04-.214-.06-.26-.127-.12-.146-.19-.34-.275-.514a17.69 17.69 0 01-.547-1.163c-.12-.262-.193-.523-.34-.763-.69-1.137-1.437-1.826-2.586-2.5-.247-.14-.543-.2-.856-.274-.167-.008-.334-.02-.5-.027-.11-.047-.216-.174-.31-.235-.38-.24-1.364-.76-1.644-.072-.18.434.267.862.422 1.082.115.153.26.328.34.5.047.116.06.235.107.356.106.294.207.622.347.897.073.14.153.287.247.413.054.073.146.107.167.227-.094.136-.1.334-.154.5-.24.757-.146 1.693.194 2.25.107.166.362.534.703.393.3-.12.234-.5.32-.835.02-.08.007-.133.048-.187v.015c.094.188.188.367.274.555.206.328.566.668.867.895.16.12.287.328.487.402v-.02h-.015c-.043-.058-.1-.086-.154-.133a3.445 3.445 0 01-.35-.4 8.76 8.76 0 01-.747-1.218c-.11-.21-.202-.436-.29-.643-.04-.08-.04-.2-.107-.24-.1.146-.247.273-.32.453-.127.288-.14.642-.188 1.01-.027.007-.014 0-.027.014-.214-.052-.287-.274-.367-.46-.2-.475-.233-1.238-.06-1.785.047-.14.247-.582.167-.716-.042-.127-.174-.2-.247-.303a2.478 2.478 0 01-.24-.427c-.16-.374-.24-.788-.414-1.162-.08-.173-.22-.354-.334-.513-.127-.18-.267-.307-.368-.52-.033-.073-.08-.194-.027-.274.014-.054.042-.075.094-.09.088-.072.335.022.422.062.247.1.455.194.662.334.094.066.195.193.315.226h.14c.214.047.455.014.655.073.355.114.675.28.962.46a5.953 5.953 0 012.085 2.286c.08.154.115.295.188.455.14.33.313.663.455.982.14.315.275.636.476.897.1.14.502.213.682.286.133.06.34.115.46.188.23.14.454.3.67.454.11.076.443.243.463.378z"/></svg>
-            
-            &nbsp;
-            
-            <svg 
-            role="img" 
-            height="32"
-            width="32"
-            viewBox="0 0 24 24" 
-            fill = "#FF6600"
-            xmlns="http://www.w3.org/2000/svg">
-            <title>RabbitMQ</title><path 
-            d="M23.035 9.601h-7.677a.956.956 0 01-.962-.962V.962a.956.956 0 00-.962-.956H10.56a.956.956 0 00-.962.956V8.64a.956.956 0 01-.962.962H5.762a.956.956 0 01-.961-.962V.962A.956.956 0 003.839 0H.959a.956.956 0 00-.956.962v22.076A.956.956 0 00.965 24h22.07a.956.956 0 00.962-.962V10.58a.956.956 0 00-.962-.98zm-3.86 8.152a1.437 1.437 0 01-1.437 1.443h-1.924a1.437 1.437 0 01-1.436-1.443v-1.917a1.437 1.437 0 011.436-1.443h1.924a1.437 1.437 0 011.437 1.443z"/></svg>
-           
-          </div>
-          <p style="text-align: justify">
-            I created a web based API to understand the internal API architecture and messaging middlewares. 
-            It replicated operations of a Bike store using C# and adopted Entity framework as an object-relation mapper.
-
-          </p>
-          <a class="project-link" target="_blank" href="https://github.com/prabhnoor23/bike_store.git">
-            Check it out!
-          </a>
-        </div>
-      </div>
-
-        <!-- User Project #4: Gym management system -->
-        <div class="user-projects">
-          <div class="images-right">
-            <picture>
-              <source type="image/png" srcset="./assets/img/webp/GYM2.png" alt="Gym management" />
-              <img alt="Gym management system" src="./assets/img/jpg/GYM2.png" style="border: 2px solid black; padding: 2px;" />
-            </picture>
-          </div>
-          <div class="contents" style="text-align: center">
-            <h3>Gym Management System</h3>
-
-            <svg 
-            role="img" 
-            viewBox="0 0 24 24" 
-            height="32"
-            width="32"
-
-            xmlns="http://www.w3.org/2000/svg">
-            <title>C#</title>
-            <path d="M1.194 7.543v8.913c0 1.103.588 2.122 1.544 2.674l7.718 4.456a3.086 3.086 0 0 0 3.088 0l7.718-4.456a3.087 3.087 0 0 0 1.544-2.674V7.543a3.084 3.084 0 0 0-1.544-2.673L13.544.414a3.086 3.086 0 0 0-3.088 0L2.738 4.87a3.085 3.085 0 0 0-1.544 2.673Zm5.403 2.914v3.087a.77.77 0 0 0 .772.772.773.773 0 0 0 .772-.772.773.773 0 0 1 1.317-.546.775.775 0 0 1 .226.546 2.314 2.314 0 1 1-4.631 0v-3.087c0-.615.244-1.203.679-1.637a2.312 2.312 0 0 1 3.274 0c.434.434.678 1.023.678 1.637a.769.769 0 0 1-.226.545.767.767 0 0 1-1.091 0 .77.77 0 0 1-.226-.545.77.77 0 0 0-.772-.772.771.771 0 0 0-.772.772Zm12.35 3.087a.77.77 0 0 1-.772.772h-.772v.772a.773.773 0 0 1-1.544 0v-.772h-1.544v.772a.773.773 0 0 1-1.317.546.775.775 0 0 1-.226-.546v-.772H12a.771.771 0 1 1 0-1.544h.772v-1.543H12a.77.77 0 1 1 0-1.544h.772v-.772a.773.773 0 0 1 1.317-.546.775.775 0 0 1 .226.546v.772h1.544v-.772a.773.773 0 0 1 1.544 0v.772h.772a.772.772 0 0 1 0 1.544h-.772v1.543h.772a.776.776 0 0 1 .772.772Zm-3.088-2.315h-1.544v1.543h1.544v-1.543Z"/></svg>
-           
-            &nbsp;
-
-            <svg 
-            role="img" 
-            viewBox="0 0 24 24" 
-            height="32"
-            width="32"
-            xmlns="http://www.w3.org/2000/svg">
-            <title>.NET</title>
-            <path d="M24 8.77h-2.468v7.565h-1.425V8.77h-2.462V7.53H24zm-6.852 7.565h-4.821V7.53h4.63v1.24h-3.205v2.494h2.953v1.234h-2.953v2.604h3.396zm-6.708 0H8.882L4.78 9.863a2.896 2.896 0 0 1-.258-.51h-.036c.032.189.048.592.048 1.21v5.772H3.157V7.53h1.659l3.965 6.32c.167.261.275.442.323.54h.024c-.04-.233-.06-.629-.06-1.185V7.529h1.372zm-8.703-.693a.868.829 0 0 1-.869.829.868.829 0 0 1-.868-.83.868.829 0 0 1 .868-.828.868.829 0 0 1 .869.829Z"/></svg>
-            
-            &nbsp;
-
-            <svg 
-            role="img" 
-            height="32"
-            width="32"
-            fill = "#00618a"
-            viewBox="0 0 24 24" 
-            xmlns="http://www.w3.org/2000/svg">
-            <title>MySQL</title>
-            <path d="M16.405 5.501c-.115 0-.193.014-.274.033v.013h.014c.054.104.146.18.214.273.054.107.1.214.154.32l.014-.015c.094-.066.14-.172.14-.333-.04-.047-.046-.094-.08-.14-.04-.067-.126-.1-.18-.153zM5.77 18.695h-.927a50.854 50.854 0 00-.27-4.41h-.008l-1.41 4.41H2.45l-1.4-4.41h-.01a72.892 72.892 0 00-.195 4.41H0c.055-1.966.192-3.81.41-5.53h1.15l1.335 4.064h.008l1.347-4.064h1.095c.242 2.015.384 3.86.428 5.53zm4.017-4.08c-.378 2.045-.876 3.533-1.492 4.46-.482.716-1.01 1.073-1.583 1.073-.153 0-.34-.046-.566-.138v-.494c.11.017.24.026.386.026.268 0 .483-.075.647-.222.197-.18.295-.382.295-.605 0-.155-.077-.47-.23-.944L6.23 14.615h.91l.727 2.36c.164.536.233.91.205 1.123.4-1.064.678-2.227.835-3.483zm12.325 4.08h-2.63v-5.53h.885v4.85h1.745zm-3.32.135l-1.016-.5c.09-.076.177-.158.255-.25.433-.506.648-1.258.648-2.253 0-1.83-.718-2.746-2.155-2.746-.704 0-1.254.232-1.65.697-.43.508-.646 1.256-.646 2.245 0 .972.19 1.686.574 2.14.35.41.877.615 1.583.615.264 0 .506-.033.725-.098l1.325.772.36-.622zM15.5 17.588c-.225-.36-.337-.94-.337-1.736 0-1.393.424-2.09 1.27-2.09.443 0 .77.167.977.5.224.362.336.936.336 1.723 0 1.404-.424 2.108-1.27 2.108-.445 0-.77-.167-.978-.5zm-1.658-.425c0 .47-.172.856-.516 1.156-.344.3-.803.45-1.384.45-.543 0-1.064-.172-1.573-.515l.237-.476c.438.22.833.328 1.19.328.332 0 .593-.073.783-.22a.754.754 0 00.3-.615c0-.33-.23-.61-.648-.845-.388-.213-1.163-.657-1.163-.657-.422-.307-.632-.636-.632-1.177 0-.45.157-.81.47-1.085.315-.278.72-.415 1.22-.415.512 0 .98.136 1.4.41l-.213.476a2.726 2.726 0 00-1.064-.23c-.283 0-.502.068-.654.206a.685.685 0 00-.248.524c0 .328.234.61.666.85.393.215 1.187.67 1.187.67.433.305.648.63.648 1.168zm9.382-5.852c-.535-.014-.95.04-1.297.188-.1.04-.26.04-.274.167.055.053.063.14.11.214.08.134.218.313.346.407.14.11.28.216.427.31.26.16.555.255.81.416.145.094.293.213.44.313.073.05.12.14.214.172v-.02c-.046-.06-.06-.147-.105-.214-.067-.067-.134-.127-.2-.193a3.223 3.223 0 00-.695-.675c-.214-.146-.682-.35-.77-.595l-.013-.014c.146-.013.32-.066.46-.106.227-.06.435-.047.67-.106.106-.027.213-.06.32-.094v-.06c-.12-.12-.21-.283-.334-.395a8.867 8.867 0 00-1.104-.823c-.21-.134-.476-.22-.697-.334-.08-.04-.214-.06-.26-.127-.12-.146-.19-.34-.275-.514a17.69 17.69 0 01-.547-1.163c-.12-.262-.193-.523-.34-.763-.69-1.137-1.437-1.826-2.586-2.5-.247-.14-.543-.2-.856-.274-.167-.008-.334-.02-.5-.027-.11-.047-.216-.174-.31-.235-.38-.24-1.364-.76-1.644-.072-.18.434.267.862.422 1.082.115.153.26.328.34.5.047.116.06.235.107.356.106.294.207.622.347.897.073.14.153.287.247.413.054.073.146.107.167.227-.094.136-.1.334-.154.5-.24.757-.146 1.693.194 2.25.107.166.362.534.703.393.3-.12.234-.5.32-.835.02-.08.007-.133.048-.187v.015c.094.188.188.367.274.555.206.328.566.668.867.895.16.12.287.328.487.402v-.02h-.015c-.043-.058-.1-.086-.154-.133a3.445 3.445 0 01-.35-.4 8.76 8.76 0 01-.747-1.218c-.11-.21-.202-.436-.29-.643-.04-.08-.04-.2-.107-.24-.1.146-.247.273-.32.453-.127.288-.14.642-.188 1.01-.027.007-.014 0-.027.014-.214-.052-.287-.274-.367-.46-.2-.475-.233-1.238-.06-1.785.047-.14.247-.582.167-.716-.042-.127-.174-.2-.247-.303a2.478 2.478 0 01-.24-.427c-.16-.374-.24-.788-.414-1.162-.08-.173-.22-.354-.334-.513-.127-.18-.267-.307-.368-.52-.033-.073-.08-.194-.027-.274.014-.054.042-.075.094-.09.088-.072.335.022.422.062.247.1.455.194.662.334.094.066.195.193.315.226h.14c.214.047.455.014.655.073.355.114.675.28.962.46a5.953 5.953 0 012.085 2.286c.08.154.115.295.188.455.14.33.313.663.455.982.14.315.275.636.476.897.1.14.502.213.682.286.133.06.34.115.46.188.23.14.454.3.67.454.11.076.443.243.463.378z"/></svg>
-            
-            &nbsp;
-
-          <svg 
-          role="img" 
-          viewBox="0 0 24 24" 
-          height="32"
-          width="32"
-          fill = "#e54d26"
-          xmlns="http://www.w3.org/2000/svg">
-          <title>HTML5</title>
-          <path d="M1.5 0h21l-1.91 21.563L11.977 24l-8.564-2.438L1.5 0zm7.031 9.75l-.232-2.718 10.059.003.23-2.622L5.412 4.41l.698 8.01h9.126l-.326 3.426-2.91.804-2.955-.81-.188-2.11H6.248l.33 4.171L12 19.351l5.379-1.443.744-8.157H8.531z"/></svg>
-            
-          &nbsp;
-
-            <img
-              height="32"
-              width="32"
-              src="https://unpkg.com/simple-icons@3.4.0/icons/css3.svg"
-              style="filter: invert(33%) sepia(29%) saturate(3844%) hue-rotate(184deg) brightness(90%) contrast(84%)"
-            />
-            
-            &nbsp;
-
-            <img
-            height="32"
-            width="32"
-            src="https://unpkg.com/simple-icons@3.4.0/icons/javascript.svg"
-            style="filter: invert(96%) sepia(47%) saturate(4151%) hue-rotate(338deg) brightness(100%) contrast(95%)"
-          />
-        
-            <p style="text-align: justify">
-              I participated in the designing and implementing of a Gym management sytem during my undergraduate program at our
-              university for our local fitness center. It helped users and admin perform day to day operations from the application.
-              
-            </p>
-            <!-- <a class="project-link" target="_blank" href="https://github.com/AVS1508/Summer-2020-Project"
-              >Check it out!</a
-            > -->
-          </div>
-        </div>  
-
-    </section>
-
-    <footer class="footer">
-      <p>&copy; Prabhnoor Singh, 2023</p>
-    </footer>
-
-    <!-- Import JS: Particles Theme -->
-    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
-    <!-- Import JS: Sweet Scroll -->
-    <script src="./assets/js/sweet-scroll.min.js"></script>
-    <!-- Import JS: Google Analytics -->
-    <script src="./assets/js/google-analytics.js"></script>
-    <!-- Import JS: Main Script -->
-    <script src="./assets/js/main.js"></script>
-  </body>
 </html>
