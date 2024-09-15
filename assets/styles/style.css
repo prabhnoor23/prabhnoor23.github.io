@@ -959,7 +959,7 @@ button:focus {
 }
 
 .gutter-top {
-  padding-top: 14.375rem;
+  padding-top: 11.375rem;
 }
 @media only screen and (max-width: 580px) {
   .gutter-top {
