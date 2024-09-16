@@ -1439,6 +1439,11 @@ button:focus {
 .gallery-grid-two .gallery-grid__image-wrap {
   height: auto;
 }
+.gallery-grid__image-wrap img{
+  max-width: 100%;               /* Make the image responsive */
+  max-height: 100%;              /* Ensure it fits inside the container */
+  object-fit: contain
+}
 .gallery-grid__image {
   border-radius: 10px;
   transform: scale3d(1, 1, 1);
@@ -1675,7 +1680,7 @@ button:focus {
 }
 
 .news-item__image-wrap img{
-   max-width: 100%;               /* Make the image responsive */
+  max-width: 100%;               /* Make the image responsive */
   max-height: 100%;              /* Ensure it fits inside the container */
   object-fit: contain
 }
